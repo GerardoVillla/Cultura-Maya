@@ -13,6 +13,7 @@ $(document).ready(function () {
             $(this).children('ul').slideDown();
 
         }
+
     });
 
     $('.menu li ul li').click(function (e) {
@@ -23,5 +24,32 @@ $(document).ready(function () {
 
         // Redirige a la página deseada
         window.location.href = href;
+
     });
 });
+
+document.addEventListener('DOMContentLoaded', function () {
+    // Ocultar todas las div excepto 'contenido'
+
+    var divs = document.querySelectorAll('div');
+    for (var i = 0; i < divs.length; i++) {
+        divs[i].classList.add('hidden');
+    }
+});
+
+function mostrarDiv(id) {
+    // Ocultar todas las div, incluyendo 'Menu', y agregar la clase 'hidden'
+    var divs = document.querySelectorAll('div');
+    for (var i = 0; i < divs.length; i++) {
+        divs[i].classList.add('hidden');
+    }
+
+    // Mostrar la div seleccionada
+    var div = document.getElementById(id);
+    div.classList.remove('hidden');
+}
+
+
+
+
+

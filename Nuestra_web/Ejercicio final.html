@@ -1,21 +1,22 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
+<head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Flora Yucateca</title>
-      <script src="https://kit.fontawesome.com/5de3bdc251.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/5de3bdc251.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" tipe="css" href="index-style.css">
     <link href="https://fonts.googleapis.com/css?family=Be+Vietnam&display=swap" rel="stylesheet">
-  </head>
+ 
+</head>
   <body>
     <div id="Cabecera">
       <header class="header2">
         <div class="wrapper">
         <div class="logo">
-          <img src="LogoFlora.png"; width="130"; height="100"; align="left">
-          Mundo Maya
+          <img src="imagenes/LogoFlora.png"; width="130" height="100" align="left">
+          Universo Maya
         </div>
         <nav>
           <a href="#">idiomas</a>
@@ -31,59 +32,63 @@
           <li><a href="Ejercicio final.html"><i class="icono left fas fa-house-damage"></i>Inicio</a>
           <li><a href="#"><i class="icono left fas fa-flag"></i> Plantas<i class="icono right fas fa-angle-double-down"></i></a>
           <ul>
-              <li><a href="#">Ruda / K'iinil t'aan</a></li>
-              <li><a href="#">Manzanilla / Saka'te'</a></li>
-              <li><a href="#">Xtabentún / Xtabentún</a></li>
-              <li><a href="#">Cilantro / K'axox</a></li>
-              <li><a href="#">Hoja de naranja agria / Nohoch chich in</a></li>
-              <li><a href="#">Hoja de aguacate / Zakté</a></li>
-              <li><a href="#">Chaya / Chay</a></li>
-              <li><a href="#">Flor de cempasúchil / K'in sáak lukum</a></li>
-              <li><a href="#">Palo de tinte / Tzalam</a></li>
-              <li><a href="#">Hierba del sapo / Sak k'ay</a></li>
-              <li><a href="#">Hoja de chicozapote / Chikusapote</a></li>
-              <li><a href="#">Hoja de guanábana / Anona</a></li>
-              <li><a href="#">Hoja de epazote / Sosbil</a></li>
-              <li><a href="#">Chicle / Chikle'</a></li>
-              <li><a href="#">Corteza de árbol de jabón / Ts'iib</a></li>
-              <li><a href="#">Hoja de anís / Xnuc'up</a></li>
-              <li><a href="#">Yuca / K'anchin</a></li>
-              <li><a href="#">Flor de Jamaica / X'manik chak</a></li>
-              <li><a href="#">Hoja de mamey / Mamey</a></li>
-              <li><a href="#">Hoja de toronjil / Tzubumtakuy</a></li>
+              <li><a href="#" onclick="mostrarDiv('Ruda')">Ruda / K'iinil t'aan</a></li>
+              <li><a href="#" onclick="mostrarDiv('Manzanilla')">Manzanilla / Saka'te'</a></li>
+              <li><a href="#" onclick="mostrarDiv('Xtabentún')">Xtabentún / Xtabentún</a></li>
+              <li><a href="#" onclick="mostrarDiv('Cilantro')">Cilantro / K'axox</a></li>
+              <li><a href="#" onclick="mostrarDiv('Hoja_de_naranja')">Hoja de naranja agria / Nohoch chich in</a></li>
+              <li><a href="#" onclick="mostrarDiv('Hoja_de_aguacate')">Hoja de aguacate / Zakté</a></li>
+              <li><a href="#" onclick="mostrarDiv('Chaya')">Chaya / Chay</a></li>
+              <li><a href="#" onclick="mostrarDiv('Flor_de_cempasúchil')">Flor de cempasúchil / K'in sáak lukum</a></li>
+              <li><a href="#" onclick="mostrarDiv('Palo_de_tinte')">Palo de tinte / Tzalam</a></li>
+              <li><a href="#" onclick="mostrarDiv('Hierba_del_sapo')">Hierba del sapo / Sak k'ay</a></li>
+              <li><a href="#" onclick="mostrarDiv('Hoja_de_chicozapote')">Hoja de chicozapote / Chikusapote</a></li>
+              <li><a href="#" onclick="mostrarDiv('Hoja_de_guanábana')">Hoja de guanábana / Anona</a></li>
+              <li><a href="#" onclick="mostrarDiv('Hoja_de_epazote')">Hoja de epazote / Sosbil</a></li>
+              <li><a href="#" onclick="mostrarDiv('Chicle')">Chicle / Chikle'</a></li>
+              <li><a href="#" onclick="mostrarDiv('Corteza_de_árbol_de_jabón')">Corteza de árbol de jabón / Ts'iib</a></li>
+              <li><a href="#" onclick="mostrarDiv('Hoja_de_anís')">Hoja de anís / Xnuc'up</a></li>
+              <li><a href="#" onclick="mostrarDiv('Yuca')">Yuca / K'anchin</a></li>
+              <li><a href="#" onclick="mostrarDiv('Flor_de_Jamaica')">Flor de Jamaica / X'manik chak</a></li>
+              <li><a href="#" onclick="mostrarDiv('Hoja_de_mamey')">Hoja de mamey / Mamey</a></li>
+              <li><a href="#" onclick="mostrarDiv('Hoja_de_toronjil')">Hoja de toronjil / Tzubumtakuy</a></li>
           </ul>
       </li>
-      <li><a href="#"><i class="icono left fas fa-share-altRedes Sociales"></i><i class="icono right fas fa-angle-double-down"></i></a>
-         <ul>
-            <li><a href="#">Facebook</a></li>
-            <li><a href="#">Whatsapp</a></li>
-         </ul>
-      </li>
-      <li><a href="#"><i class="icono left fas fa-envelope"></i>Acerca de los creadores</a></li>
+      <li><a href="nivel 1.html"><i class="icono left fas fa-envelope"></i>Acerca de los creadores</a></li>
 
      </ul>
     </div>
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script type="text/javascript" src="main.js"></script>
     <div id="Contenido">
-        <div id="Menú">
+        <div id="Menu">
             <font face="Comic Sans MS,Arial,Verdana" size="7">Flora Yucateca y sus aplicaciones en la medicina</font><br>
-            <img src="Flora.jfif" align="middle" with="100" height="250">
+            <img src="imagenes/Flora.jfif" align="middle" with="100" height="250">
         </div>
         <div id="Ruda">
             <font face="Comic Sans MS,Arial,Verdana" size="7">Ruda o K'iinil t'aan</font><br>
+            <img src="imagenes/Ruda.jpeg" align="middle" with="100" height="250">
+            <br>
             <p>
-                La ruda era una planta medicinal ampliamente utilizada por los mayas para una variedad de propósitos. Algunos de los usos medicinales de la ruda entre los mayas incluyen:<br />
-                1. Tratamiento de trastornos gastrointestinales: La ruda se usaba para aliviar el dolor abdominal, la diarrea y otros problemas digestivos.<br />
-                2. Alivio de dolores de cabeza: Se creía que la ruda tenía propiedades analgésicas y se usaba para tratar dolores de cabeza.<br />
+                La ruda era una planta medicinal ampliamente utilizada por los mayas para una variedad de propósitos.
+                Algunos de los usos medicinales de la ruda entre los mayas incluyen:<br />
+                1. Tratamiento de trastornos gastrointestinales: La ruda se usaba para aliviar el dolor abdominal, la
+                diarrea y otros problemas digestivos.<br />
+                2. Alivio de dolores de cabeza: Se creía que la ruda tenía propiedades analgésicas y se usaba para
+                tratar dolores de cabeza.<br />
                 3. Protección contra insectos: Los mayas usaban la ruda para repeler insectos y prevenir picaduras.<br />
-                4. Tratamiento de enfermedades respiratorias: La ruda se usaba para aliviar los síntomas de enfermedades respiratorias como el asma y la bronquitis.<br />
-                5. Propiedades antiinflamatorias: La ruda se usaba como antiinflamatorio para aliviar el dolor y la inflamación en diferentes partes del cuerpo.<br />
-                6. Estimulación del sistema nervioso: Los mayas creían que la ruda tenía efectos estimulantes sobre el sistema nervioso y se usaba para aliviar la fatiga y mejorar la concentración.<br />
+                4. Tratamiento de enfermedades respiratorias: La ruda se usaba para aliviar los síntomas de enfermedades
+                respiratorias como el asma y la bronquitis.<br />
+                5. Propiedades antiinflamatorias: La ruda se usaba como antiinflamatorio para aliviar el dolor y la
+                inflamación en diferentes partes del cuerpo.<br />
+                6. Estimulación del sistema nervioso: Los mayas creían que la ruda tenía efectos estimulantes sobre el
+                sistema nervioso y se usaba para aliviar la fatiga y mejorar la concentración.<br />
             </p>
         </div>
         <div id="Manzanilla">
             <font face="Comic Sans MS,Arial,Verdana" size="7">Manzanilla o Saka'te'</font><br>
+            <img src="imagenes/Manzanilla.jpeg" align="middle" with="100" height="250">
+            <br>
             <p>
                 La planta llamada Xtabentun, que lleva el mismo nombre de la bebida, es en realidad
                 una flor que crece en la península de Yucatán, y que los mayas consideraban sagrada
@@ -95,6 +100,8 @@
         </div>
         <div id="Xtabentún">
             <font face="Comic Sans MS,Arial,Verdana" size="7">Xtabentún o Xtabentún</font><br>
+            <img src="imagenes/xtabentun.jpeg" align="middle" with="100" height="250">
+            <br>
             <p>
                 La planta llamada Xtabentun, que lleva el mismo nombre de la bebida, es en realidad
                 una flor que crece en la península de Yucatán, y que los mayas consideraban sagrada
@@ -106,6 +113,8 @@
         </div>
         <div id="Cilantro">
             <font face="Comic Sans MS,Arial,Verdana" size="7">Cilantro o K'axo</font><br>
+            <img src="imagenes/Cilantro.jpeg" align="middle" with="100" height="250">
+            <br>
             <p>
                 El cilantro. Algunos de los usos medicinales del cilantro entre los mayas incluyen:<br>
                 1. Alivio de trastornos gastrointestinales: El cilantro se usaba para tratar problemas
@@ -119,8 +128,10 @@
         </div>
         <div id="Hoja_de_naranja">
             <font face="Comic Sans MS,Arial,Verdana" size="7">Hoja de naranja agria o Nohoch chich in</font><br>
+            <img src="imagenes/Hoja de naranja agria.jpeg" align="middle" with="100" height="250">
+            <br>
             <p>
-               La hoja de naranja<br>
+                La hoja de naranja<br>
                 1. Alivio de trastornos gastrointestinales: La hoja de naranja agria se usaba para tratar problemas digestivos
                 como la indigestión, la diarrea y el dolor abdominal.<br>
                 2. Estimulación del apetito: La hoja de naranja agria se usaba para estimular el apetito y mejorar la digestión.<br>
@@ -128,44 +139,50 @@
                 problemas relacionados con el estrés.<br>
                 4. Alivio de dolores musculares: Se creía que la hoja de naranja agria tenía propiedades analgésicas y se usaba
                 para aliviar dolores musculares y otros tipos de dolor.<br>
-                5. Tratamiento de enfermedades respiratorias: La hoja de naranja agria se usaba para aliviar los síntomas de 
+                5. Tratamiento de enfermedades respiratorias: La hoja de naranja agria se usaba para aliviar los síntomas de
                 enfermedades respiratorias como el asma y la bronquitis.<br>
                 6. Propiedades antibacterianas: Se creía que la hoja de naranja agria tenía propiedades antibacterianas y se usaba
                 para tratar infecciones.<br>
             </p>
         </div>
-              
+
         <div id="Hoja_de_aguacate">
             <font face="Comic Sans MS,Arial,Verdana" size="7">Hoja de aguacate o Zaktéont</font><br>
-              <p>
-                 La hoja de aguacate:<br>
-                    1. Alivio de trastornos gastrointestinales: La hoja de aguacate se usaba para tratar problemas 
-                  digestivos como la diarrea, la indigestión y la acidez estomacal.<br>
-                    2. Estimulación del sistema inmunológico: La hoja de aguacate se usaba para estimular el sistema
-                  inmunológico y ayudar al cuerpo a combatir enfermedades.<br>
-                    3. Propiedades diuréticas: La hoja de aguacate se usaba como diurético para ayudar a eliminar el
-                  exceso de líquidos del cuerpo.<br>
-                    4. Propiedades antimicrobianas: Se creía que la hoja de aguacate tenía propiedades antimicrobianas 
-                  y se usaba para tratar infecciones.<br>
-              </p>
-</div>
+            <img src="imagenes/Hoja de aguacate.jpeg" align="middle" with="100" height="250">
+            <br>
+            <p>
+                La hoja de aguacate:<br>
+                1. Alivio de trastornos gastrointestinales: La hoja de aguacate se usaba para tratar problemas
+                digestivos como la diarrea, la indigestión y la acidez estomacal.<br>
+                2. Estimulación del sistema inmunológico: La hoja de aguacate se usaba para estimular el sistema
+                inmunológico y ayudar al cuerpo a combatir enfermedades.<br>
+                3. Propiedades diuréticas: La hoja de aguacate se usaba como diurético para ayudar a eliminar el
+                exceso de líquidos del cuerpo.<br>
+                4. Propiedades antimicrobianas: Se creía que la hoja de aguacate tenía propiedades antimicrobianas
+                y se usaba para tratar infecciones.<br>
+            </p>
+        </div>
         <div id="Chaya">
             <font face="Comic Sans MS,Arial,Verdana" size="7">Chaya o Chay</font><br>
+            <img src="imagenes/Chaya.jpeg" align="middle" with="100" height="250">
+            <br>
             <p>
-               La chaya:<br>
-                1. Alivio de trastornos gastrointestinales: La chaya se usaba para tratar problemas digestivos 
+                La chaya:<br>
+                1. Alivio de trastornos gastrointestinales: La chaya se usaba para tratar problemas digestivos
                 como la diarrea, la indigestión y la acidez estomacal.<br>
                 2. Estimulación del sistema inmunológico: La chaya se usaba para estimular el sistema inmunológico
                 y ayudar al cuerpo a combatir enfermedades.<br>
                 3. Mejora de la visión: Se cree que la chaya contiene altos niveles de vitamina A, que es esencial
                 para la salud ocular, y se usaba para mejorar la visión.<br>
-                4. Propiedades antiinflamatorias: La chaya se usaba para reducir la inflamación y aliviar el dolor 
+                4. Propiedades antiinflamatorias: La chaya se usaba para reducir la inflamación y aliviar el dolor
                 asociado con enfermedades como la artritis y otras afecciones inflamatorias.<br>
                 5. Propiedades antianémicas: Se cree que la chaya es rica en hierro y se usaba para tratar la anemia.<br>
             </p>
         </div>
         <div id="Flor_de_cempasúchil">
             <font face="Comic Sans MS,Arial,Verdana" size="7">Flor de cempasúchil o K'in sáak lukum</font><br>
+            <img src="imagenes/Flor de cempasuchil.jpeg" align="middle" with="100" height="250">
+            <br>
             <p>
                 La ruda era una planta medicinal ampliamente utilizada por los mayas para una variedad de propósitos. Algunos de los usos medicinales de la ruda entre los mayas incluyen:<br />
                 1. Tratamiento de trastornos gastrointestinales: La ruda se usaba para aliviar el dolor abdominal, la diarrea y otros problemas digestivos.<br />
@@ -174,10 +191,13 @@
                 4. Tratamiento de enfermedades respiratorias: La ruda se usaba para aliviar los síntomas de enfermedades respiratorias como el asma y la bronquitis.<br />
                 5. Propiedades antiinflamatorias: La ruda se usaba como antiinflamatorio para aliviar el dolor y la inflamación en diferentes partes del cuerpo.<br />
                 6. Estimulación del sistema nervioso: Los mayas creían que la ruda tenía efectos estimulantes sobre el sistema nervioso y se usaba para aliviar la fatiga y mejorar la concentración.<br />
+                <br />
             </p>
         </div>
         <div id="Palo_de_tinte">
             <font face="Comic Sans MS,Arial,Verdana" size="7">Palo de tinte o Tzalam</font><br>
+            <img src="imagenes/Palo de tinte 1.jpeg" align="middle" with="100" height="250">
+            <br>
             <p>
                 La ruda era una planta medicinal ampliamente utilizada por los mayas para una variedad de propósitos. Algunos de los usos medicinales de la ruda entre los mayas incluyen:<br />
                 1. Tratamiento de trastornos gastrointestinales: La ruda se usaba para aliviar el dolor abdominal, la diarrea y otros problemas digestivos.<br />
@@ -190,6 +210,8 @@
         </div>
         <div id="Hierba_del_sapo">
             <font face="Comic Sans MS,Arial,Verdana" size="7">Hierba del sapo o Sak k'ay</font><br>
+            <img src="imagenes/Hierba del sapo.jpeg" align="middle" with="100" height="250">
+            <br>
             <p>
                 La ruda era una planta medicinal ampliamente utilizada por los mayas para una variedad de propósitos. Algunos de los usos medicinales de la ruda entre los mayas incluyen:<br />
                 1. Tratamiento de trastornos gastrointestinales: La ruda se usaba para aliviar el dolor abdominal, la diarrea y otros problemas digestivos.<br />
@@ -202,54 +224,66 @@
         </div>
         <div id="Hoja_de_chicozapote">
             <font face="Comic Sans MS,Arial,Verdana" size="7">Hoja de chicozapote o Chikusapote</font><br>
+            <img src="imagenes/Hoja de chicozapote.jpeg" align="middle" with="100" height="250">
+            <br>
             <p>
-               La hoja de chicozapote:<br>
-                1. Alivio de trastornos gastrointestinales: La hoja de chicozapote se usaba para tratar problemas digestivos 
+                La hoja de chicozapote:<br>
+                1. Alivio de trastornos gastrointestinales: La hoja de chicozapote se usaba para tratar problemas digestivos
                 como la diarrea, la indigestión y la acidez estomacal.<br>
                 2. Control de la diabetes: Se cree que la hoja de chicozapote tiene propiedades hipoglucémicas y se usaba para
                 ayudar a controlar la diabetes.<br>
                 3. Propiedades antiinflamatorias: La hoja de chicozapote se usaba para reducir la inflamación y aliviar el dolor
                 asociado con enfermedades como la artritis y otras afecciones inflamatorias.<br>
                 4. Propiedades analgésicas: La hoja de chicozapote se usaba como analgésico natural para aliviar el dolor.<br>
-                5. Estimulación del sistema inmunológico: La hoja de chicozapote se usaba para estimular el sistema inmunológico 
+                5. Estimulación del sistema inmunológico: La hoja de chicozapote se usaba para estimular el sistema inmunológico
                 y ayudar al cuerpo a combatir enfermedades.<br>
                 6. Propiedades antianémicas: Se cree que la hoja de chicozapote es rica en hierro y se usaba para tratar la anemia.<br>
-             </p>
+            </p>
         </div>
         <div id="Hoja_de_guanábana">
             <font face="Comic Sans MS,Arial,Verdana" size="7">Hoja de guanábana o Anona</font><br>
+            <img src="imagenes/Hoja de guanabana.jpeg" align="middle" with="100" height="250">
+            <br>
             <p>
-               La hoja de guanábana:<br>
-                1. Alivio de trastornos gastrointestinales: La hoja de guanábana se usaba para tratar problemas 
+                La hoja de guanábana:<br>
+                1. Alivio de trastornos gastrointestinales: La hoja de guanábana se usaba para tratar problemas
                 digestivos como la diarrea, la indigestión y la acidez estomacal.<br>
-                2. Control de la diabetes: Se cree que la hoja de guanábana tiene propiedades hipoglucémicas y se 
+                2. Control de la diabetes: Se cree que la hoja de guanábana tiene propiedades hipoglucémicas y se
                 usaba para ayudar a controlar la diabetes.<br>
                 3. Propiedades antiinflamatorias: La hoja de guanábana se usaba para reducir la inflamación y aliviar
                 el dolor asociado con enfermedades como la artritis y otras afecciones inflamatorias.<br>
-                4. Propiedades antitumorales: Se cree que la hoja de guanábana tiene propiedades antitumorales y se 
+                4. Propiedades antitumorales: Se cree que la hoja de guanábana tiene propiedades antitumorales y se
                 usaba como parte del tratamiento para el cáncer.<br>
-                5. Propiedades antiparasitarias: La hoja de guanábana se usaba para tratar infecciones parasitarias y 
+                5. Propiedades antiparasitarias: La hoja de guanábana se usaba para tratar infecciones parasitarias y
                 enfermedades como la malaria.<br>
-                6. Estimulación del sistema inmunológico: La hoja de guanábana se usaba para estimular el sistema 
+                6. Estimulación del sistema inmunológico: La hoja de guanábana se usaba para estimular el sistema
                 inmunológico y ayudar al cuerpo a combatir enfermedades.<br>
-                7. Propiedades sedantes y ansiolíticas: La hoja de guanábana se usaba para aliviar el estrés y la 
+                7. Propiedades sedantes y ansiolíticas: La hoja de guanábana se usaba para aliviar el estrés y la
                 ansiedad y ayudar a mejorar el sueño.<br>
-             </p>
+            </p>
         </div>
         <div id="Hoja_de_epazote">
             <font face="Comic Sans MS,Arial,Verdana" size="7">Hoja de epazote o Sosbil</font><br>
+            <img src="imagenes/Hoja de epazote.jpeg" align="middle" with="100" height="250">
+            <br>
             <p>
-                La ruda era una planta medicinal ampliamente utilizada por los mayas para una variedad de propósitos. Algunos de los usos medicinales de la ruda entre los mayas incluyen:<br />
-                1. Tratamiento de trastornos gastrointestinales: La ruda se usaba para aliviar el dolor abdominal, la diarrea y otros problemas digestivos.<br />
-                2. Alivio de dolores de cabeza: Se creía que la ruda tenía propiedades analgésicas y se usaba para tratar dolores de cabeza.<br />
-                3. Protección contra insectos: Los mayas usaban la ruda para repeler insectos y prevenir picaduras.<br />
-                4. Tratamiento de enfermedades respiratorias: La ruda se usaba para aliviar los síntomas de enfermedades respiratorias como el asma y la bronquitis.<br />
-                5. Propiedades antiinflamatorias: La ruda se usaba como antiinflamatorio para aliviar el dolor y la inflamación en diferentes partes del cuerpo.<br />
-                6. Estimulación del sistema nervioso: Los mayas creían que la ruda tenía efectos estimulantes sobre el sistema nervioso y se usaba para aliviar la fatiga y mejorar la concentración.<br />
+                El epazote<br>
+                1. Alivio de trastornos gastrointestinales: La hoja de epazote se usaba para tratar problemas
+                digestivos como la diarrea, el dolor abdominal, la flatulencia y la indigestión.<br>
+                2. Propiedades antiparasitarias: La hoja de epazote se usaba para tratar infecciones parasitarias,
+                especialmente aquellas causadas por lombrices intestinales y otros parásitos.<br>
+                3. Estimulación del sistema nervioso: La hoja de epazote se usaba como estimulante nervioso y para
+                tratar problemas como la depresión y la fatiga.<br>
+                4. Propiedades antiinflamatorias: La hoja de epazote se usaba para reducir la inflamación y aliviar el dolor asociado con enfermedades como la artritis y otras afecciones inflamatorias.
+                5. Propiedades analgésicas: La hoja de epazote se usaba como analgésico natural para aliviar el dolor.
+                6. Propiedades antiespasmódicas: La hoja de epazote se usaba para aliviar los espasmos musculares y calmar los nervios.
+                7. Propiedades diuréticas: La hoja de epazote se usaba como diurético natural para aumentar la producción de orina y eliminar líquidos del cuerpo.ejorar la concentración.<br>
             </p>
         </div>
         <div id="Chicle">
             <font face="Comic Sans MS,Arial,Verdana" size="7">Chicle o Chikle'</font><br>
+            <img src="imagenes/chicle.jpg" align="middle" with="200" height="400">
+            <br>
             <p>
                 La ruda era una planta medicinal ampliamente utilizada por los mayas para una variedad de propósitos. Algunos de los usos medicinales de la ruda entre los mayas incluyen:<br />
                 1. Tratamiento de trastornos gastrointestinales: La ruda se usaba para aliviar el dolor abdominal, la diarrea y otros problemas digestivos.<br />
@@ -262,6 +296,8 @@
         </div>
         <div id="Corteza_de_árbol_de_jabón">
             <font face="Comic Sans MS,Arial,Verdana" size="7">Corteza de árbol de jabón o Ts'iib</font><br>
+            <img src="imagenes/corteza de arbol de jabón.jpg" align="middle" with="100" height="250">
+            <br>
             <p>
                 La ruda era una planta medicinal ampliamente utilizada por los mayas para una variedad de propósitos. Algunos de los usos medicinales de la ruda entre los mayas incluyen:<br />
                 1. Tratamiento de trastornos gastrointestinales: La ruda se usaba para aliviar el dolor abdominal, la diarrea y otros problemas digestivos.<br />
@@ -274,6 +310,8 @@
         </div>
         <div id="Hoja_de_anís">
             <font face="Comic Sans MS,Arial,Verdana" size="7">Hoja de anís o Xnuc'up</font><br>
+            <img src="imagenes/Hoja de anis.jpg" align="middle" with="100" height="250">
+            <br>
             <p>
                 La ruda era una planta medicinal ampliamente utilizada por los mayas para una variedad de propósitos. Algunos de los usos medicinales de la ruda entre los mayas incluyen:<br />
                 1. Tratamiento de trastornos gastrointestinales: La ruda se usaba para aliviar el dolor abdominal, la diarrea y otros problemas digestivos.<br />
@@ -286,8 +324,10 @@
         </div>
         <div id="Yuca">
             <font face="Comic Sans MS,Arial,Verdana" size="7">Yuca o K'anchin</font><br>
+            <img src="imagenes/Yuca.jpeg" align="middle" with="200" height="350">
+            <br>
             <p>
-                La ruda era una planta medicinal ampliamente utilizada por los mayas para una variedad de propósitos. Algunos de los usos medicinales de la ruda entre los mayas incluyen:<br />
+                La ruda era una planta medicinal ampliamente utilizada por los maya para una variedad de propósitos. Algunos de los usos medicinales de la ruda entre los mayas incluyen:<br />
                 1. Tratamiento de trastornos gastrointestinales: La ruda se usaba para aliviar el dolor abdominal, la diarrea y otros problemas digestivos.<br />
                 2. Alivio de dolores de cabeza: Se creía que la ruda tenía propiedades analgésicas y se usaba para tratar dolores de cabeza.<br />
                 3. Protección contra insectos: Los mayas usaban la ruda para repeler insectos y prevenir picaduras.<br />
@@ -297,7 +337,9 @@
             </p>
         </div>
         <div id="Flor_de_Jamaica">
-            <font face="Comic Sans MS,Arial,Verdana" size="7">Flor de Jamaica o X'manik chak</font><br>
+            <font face="Comic Sans MS,Arial,Verdana" size="7">Flor de Jamaica o X'manik chak</font><br />
+            <img src="imagenes/Flor de jamaica.jpeg" align="middle" with="100" height="250">
+            <br>
             <p>
                 La ruda era una planta medicinal ampliamente utilizada por los mayas para una variedad de propósitos. Algunos de los usos medicinales de la ruda entre los mayas incluyen:<br />
                 1. Tratamiento de trastornos gastrointestinales: La ruda se usaba para aliviar el dolor abdominal, la diarrea y otros problemas digestivos.<br />
@@ -310,18 +352,22 @@
         </div>
         <div id="Hoja_de_mamey">
             <font face="Comic Sans MS,Arial,Verdana" size="7">Hoja de mamey o Mamey</font><br>
+            <img src="imagenes/Hoja de mamey.jpeg" align="middle" with="100" height="250">
+            <br>
             <p>
                 La ruda era una planta medicinal ampliamente utilizada por los mayas para una variedad de propósitos. Algunos de los usos medicinales de la ruda entre los mayas incluyen:<br />
                 1. Tratamiento de trastornos gastrointestinales: La ruda se usaba para aliviar el dolor abdominal, la diarrea y otros problemas digestivos.<br />
-                2. Alivio de dolores de cabeza: Se creía que la ruda tenía propiedades analgésicas y se usaba para tratar dolores de cabeza.<br />
-                3. Protección contra insectos: Los mayas usaban la ruda para repeler insectos y prevenir picaduras.<br />
-                4. Tratamiento de enfermedades respiratorias: La ruda se usaba para aliviar los síntomas de enfermedades respiratorias como el asma y la bronquitis.<br />
+                2. Alivio de dolores de cabeza: Se creía que la ruda  repeler insectos y prevenir picaduras.<br />
+                4. Tratamiento de enfermedades respiratorias: La ruda stenía propiedades analgésicas y se usaba para tratar dolores de cabeza.<br />
+                3. Protección contra insectos: Los mayas usaban la ruda parae usaba para aliviar los síntomas de enfermedades respiratorias como el asma y la bronquitis.<br />
                 5. Propiedades antiinflamatorias: La ruda se usaba como antiinflamatorio para aliviar el dolor y la inflamación en diferentes partes del cuerpo.<br />
                 6. Estimulación del sistema nervioso: Los mayas creían que la ruda tenía efectos estimulantes sobre el sistema nervioso y se usaba para aliviar la fatiga y mejorar la concentración.<br />
             </p>
         </div>
         <div id="Hoja_de_toronjil">
             <font face="Comic Sans MS,Arial,Verdana" size="7">Hoja de toronjil o Tzubumtakuy</font><br>
+            <img src="imagenes/Hoja de toronjil.jpeg" align="middle" with="100" height="250">
+            <br>
             <p>
                 La ruda era una planta medicinal ampliamente utilizada por los mayas para una variedad de propósitos. Algunos de los usos medicinales de la ruda entre los mayas incluyen:<br />
                 1. Tratamiento de trastornos gastrointestinales: La ruda se usaba para aliviar el dolor abdominal, la diarrea y otros problemas digestivos.<br />
@@ -336,9 +382,11 @@
 
     </div>
     <div class="footer">
-      <FONT COLOR="white"><small>&copy; Derechos reservados 2021</small></FONT><br>
-        <FONT COLOR="white"><small>Fecha de creación: 18/05/2021</small></FONT>
-        <div class="wrapper">
+        <div class="derechos">
+            <FONT COLOR="white"><small>&copy; Derechos reservados 2021</small></FONT><br>
+            <FONT COLOR="white"><small>Fecha de creación: 18/05/2021</small></FONT>
+        </div>
+        <div class="wrapper2">
         <a href="#"><i class="icono left fas fa-house-damage"></i>Inicio</a>
         </div>
     </div>
