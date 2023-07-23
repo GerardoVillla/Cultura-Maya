@@ -1,0 +1,247 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+div#Cabecera{
+  margin: 0px;
+  width:100%;
+  height:100px;
+  padding:0px 5px 0px 0px;
+        }
+
+header {
+    overflow: hidden;
+    background: #FFC300;
+    width: 100%;
+    margin-bottom: 0px;
+}
+    .wrapper{
+    width:90%;
+    max-width:100%;
+    margin: 0px;
+    }
+
+    header .logo {
+      color: #000000;
+      font-size: 50px;
+      line-height: 200px;
+      float: left;
+    }
+
+    header nav {
+      float:right;
+      line-height: 200px;
+    }
+
+    header nav a {
+      display: inline-block;
+      color: #000000;
+      text-decoration: none;
+      padding: 10px 20px;
+      line-height:normal;
+      font-size: 20px;
+      font-weight: bold;
+      -webkit-transition:all 500ms ease;
+      -o-transition:all 500ms ease;
+      transition:all 500ms ease;
+    }
+
+    header nav a:hover {
+      background:tomato;
+      border-radius: 50px;
+    }
+    .header2 {
+      position:fixed;
+      height: 100px;
+    }
+
+   .header2 .logo {
+      line-height:100px;
+      font-size: 30px;
+    }
+    .header2 nav {
+      line-height: 100px;
+    }
+    .recuperar {
+      clear: both;
+    }
+.contenedor-menu{
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  background: #D3CCE3;
+  line-height: 18px;
+}
+a{
+    text-decoration: none;
+    color: #FFF;
+
+}
+
+.btn-menu{
+    display: none;
+    padding: 20px;
+    background: #494949;
+    color: #fff;
+}
+.btn-menu .icono{
+    float: right;
+}
+.contenedor-menu{
+    width: 20%;
+    min-width: 300px;
+    margin: 50px;
+    display: inline-block;
+    line-height: 18px;
+    font-family: 'Be Vietnam', sans-serif;
+
+}
+.contenedor-menu .menu{
+    width: 100%;
+}
+.contenedor-menu ul{
+    list-style: none;
+}
+.contenedor-menu .menu li a{
+  color:#494949;
+  display: block;
+  padding: 15px 20px;
+  background: #e9e9e9;
+}
+.contenedor-menu .menu li a:hover{
+    background: #592008;
+    color: #FFF;
+}
+
+.contenedor-menu .menu .icono{
+    font-size: 12px;
+    line-height: 18px;
+}
+.contenedor-menu .menu .icono.left{
+    float: left;
+    margin-right: 10px;
+    font-size: 24px;
+}
+.contenedor-menu .menu .icono.right{
+    float: right;
+    margin-right: 10px;
+    font-size: 24px;
+}
+.contenedor-menu .menu ul li a{
+  background: #7E3B1F;
+  color: #e9e9e9;
+}
+.contenedor-menu .menu ul{
+    display: none;
+}
+.contenedor-menu .menu .activado > a{
+    background: #592008;
+    color: #FFF;
+}
+@media screen and (max-width: 450px){
+    body{
+        padding-top: 80px;
+    }
+    .contenedor-menu{
+        margin : 0;
+        width: 100%;
+        position: fixed;
+        top:0;
+        z-index: 1000;
+    }
+    .btn-menu{
+        display: block;
+    }
+    .contenedor-menu .menu{
+        display: none;
+    }
+}
+
+#Contenido, #Proposito{
+  margin:40px;
+  text-align: center; 
+  margin-bottom:80px; 
+  margin-top:0px;
+  float: right; 
+  width:60%;
+  height:auto;
+  background-color:#FDFAFA;
+  position:static;
+}
+
+#Referencias {
+    margin: 40px;
+    margin-bottom: 80px;
+    margin-top: 0px;
+    margin-bottom: 80px;
+    margin-top: 0px;
+    float: right;
+    width: 60%;
+    height: auto;
+    background-color: #FDFAFA;
+    position: static;
+}
+#Proposito p {
+    font-family: 'Comic Sans MS';
+    font-size: 20px;
+}
+#Contenido p {
+    font-family:'Comic Sans MS';
+    font-size: 25px;
+}
+#Proposito img {
+    border-radius: 150px;
+}
+#Proposito div{
+    margin: 50px;
+}
+/*Oculta las div exepto Menu*/
+#Contenido .hidden {
+    display: none;
+}
+/*#Contenido div:not(#Menu) {
+    display: none;
+}*/
+.footer{
+  margin:0px;
+  position: fixed;
+  width:100%;
+  background-color:#0F0E0E;
+  top:94%;
+  bottom: 0;
+}
+.wrapper2 {
+    float: right;
+    width: 50%;
+    text-align: right;
+}
+.derechos {
+    float: left;
+    width: 50%;
+}
+.wrapper2 a {
+  line-height: 0px;
+  margin: 0px;
+  margin-right: 15px;
+}
+
+.footer a {
+  display: inline-block;
+  color: #FFF;
+  text-decoration: none;
+  /*padding: 0px 0px;*/
+  line-height:normal;
+  font-size: 20px;
+  font-weight: bold;
+  -webkit-transition:all 500ms ease;
+  -o-transition:all 500ms ease;
+  transition:all 500ms ease;
+}
+.footer a:hover {
+  background:tomato;
+  border-radius: 50px;
+}
+#Contenido img {
+    border: 30px outset #000;
+    margin: 25px;
+}
